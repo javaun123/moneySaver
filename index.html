@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<link rel="stylesheet" href="weminder.css"> 
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+<script src="weminder.js"></script>
+    <head>
+        <title>Weminder - Stay Hydrated</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" id="topNav">
+  <div class="container">
+    <h3 style="font-weight: 400;">Weminder</h3>
+  </div>
+</nav>
+        <div class="page-header" id="infoBanner">
+            <div id="bannerText">
+  <h1 style="font-weight: 300;">The Goal </h1><br><p style="font-weight: 100;">Drink more water to reduce hunger, <br>thus saving you more money throughout the day!<br></p><p style="font-size: 15px"> Tip: The average human should drink 8-ounces of water a day. <br> Weminder helps you split it up.</p>
+                
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    How often would like a reminder? <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a id="half">Half an Hour</a></li>
+    <li><a id="hour">Every Hour</a></li>
+    <li><a id="hourHalf">Hour and a Half</a></li>
+    <li><a id="twohour">2 Hours</a></li>
+  </ul>
+</div>
+                <div onclick="setInterval(myFunction, clock)" class="btn btn-info">Start Hyrdator Clock</div>
+            <div id="shareBtn" class="btn btn-success clearfix">Share</div>
+</div>
+<div>
+    <h3></h3>
+            </div>
+            </div>    
+    </body>
+    <script src="weminder.js"></script>
+    <script src="FacebookShare.js"></script>  
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>    
+</html>
